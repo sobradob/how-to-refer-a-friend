@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Test files
+test_*.html
+test_*.md
+*_test.html
+*_output.html
+*_fixed.html
+*_basic.html
+*_final.html
+*_with_author.html
+
+# Temp/working files
+oct_15.htm
+raf_oct_16.md
+output.html
+toc_example.html
+google_trends_iframe_example.html
+feedback_outreach_list.md

@@ -1,0 +1,228 @@
+/* Navigation styles for multi-page Tufte site */
+/* Complements tufte.css - same font family and color scheme */
+
+/* ========================================
+   Top Navigation Bar
+   ======================================== */
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fffff8;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 12.5%;
+    text-align: center;
+}
+
+/* Site title - centered above chapter links */
+.site-title {
+    display: block;
+    font-size: 1.4rem;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #111;
+    margin-bottom: 0.5rem;
+}
+
+.site-title:hover {
+    color: #111;
+}
+
+/* PDF download link */
+.pdf-link {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #111;
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+}
+
+.pdf-link:hover {
+    text-decoration: underline;
+}
+
+/* Chapter navigation links */
+.chapter-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.95rem;
+}
+
+.chapter-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.chapter-nav a {
+    color: #111;
+    text-decoration: none;
+}
+
+.chapter-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Current page indicator - bold text */
+.chapter-nav .current {
+    font-weight: bold;
+}
+
+/* ========================================
+   Mobile Navigation (Hamburger Menu)
+   ======================================== */
+
+/* Hamburger toggle - hidden by default on desktop */
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    user-select: none;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 760px) {
+    .nav-container {
+        padding: 0 5%;
+    }
+
+    .site-title {
+        font-size: 1.2rem;
+    }
+
+    /* Show hamburger icon */
+    .nav-toggle-label {
+        display: inline-block;
+        margin-top: 0.5rem;
+    }
+
+    /* Hide chapter nav by default on mobile */
+    .chapter-nav {
+        display: none;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #ddd;
+    }
+
+    /* Show chapter nav when toggle is checked */
+    .nav-toggle:checked ~ .chapter-nav {
+        display: flex;
+    }
+
+    /* Rotate hamburger to X when open */
+    .nav-toggle:checked + .nav-toggle-label::before {
+        content: "\2715"; /* X symbol */
+    }
+
+    .nav-toggle-label::before {
+        content: "\2630"; /* Hamburger symbol */
+    }
+}
+
+/* ========================================
+   Chapter Table of Contents (Index Page)
+   ======================================== */
+
+.chapter-toc {
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #ccc;
+}
+
+.chapter-toc h2 {
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.chapter-toc ol {
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.chapter-toc li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.chapter-toc a {
+    color: #111;
+    text-decoration: none;
+}
+
+.chapter-toc a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   Dark Mode Support
+   ======================================== */
+
+@media (prefers-color-scheme: dark) {
+    .site-nav {
+        background-color: #151515;
+        border-bottom-color: #333;
+    }
+
+    .site-title,
+    .pdf-link,
+    .chapter-nav a,
+    .chapter-toc a {
+        color: #ddd;
+    }
+
+    .chapter-nav a:hover,
+    .chapter-toc a:hover {
+        color: #fff;
+    }
+
+    .chapter-toc {
+        border-top-color: #333;
+    }
+
+    .nav-toggle-label {
+        color: #ddd;
+    }
+
+    @media (max-width: 760px) {
+        .chapter-nav {
+            border-top-color: #333;
+        }
+    }
+}
+
+/* ========================================
+   Adjustments for Tufte article spacing
+   ======================================== */
+
+/* Push article content below sticky nav */
+body {
+    padding-top: 0;
+}
+
+/* Ensure first element in article has proper spacing */
+article {
+    padding-top: 2rem;
+}
