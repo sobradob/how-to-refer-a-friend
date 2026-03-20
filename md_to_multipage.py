@@ -156,7 +156,7 @@ def generate_nav_html(chapters, current_slug=None, include_pdf=True):
 
     nav_html = f'''<nav class="site-nav">
     <div class="nav-container">
-        <a href="index.html" class="site-title">How To Refer A Friend</a>
+        <a href="index.html" class="site-title">How To Run Referrals</a>
         {pdf_link}
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"></label>
@@ -461,7 +461,7 @@ def main(input_file, output_dir):
     # Extract metadata
     title, subtitle, cleaned_content = extract_metadata_from_markdown(markdown_content)
     if not title:
-        title = "How To Refer A Friend"
+        title = "How To Run Referrals"
 
     print(f"Converting {input_file} to multi-page site...")
     print(f"  Title: {title}")

@@ -1,4 +1,4 @@
-# How To Refer A Friend
+# How To Run Referrals
 subtitle: A Guide to Building Successful Referral Programs By [!Boaz Sobrado](www.boazsobrado.com)
 
 ## Table of Contents
@@ -31,7 +31,7 @@ The best known referral campaign I've been involved in was Zilch's in 2021. Zilc
 
 [!trends:keyword:Zilch,geo:GB,time:2021-01-01 2021-12-31]
 
-The Google trends chart below shows how fast Zilch grew. When I joined Zilch in summer of 2021, we had less than 1 million registered customers. In September 2021, we hit 1 million registered customers. By March 2022 we had hit 2 million registered customers. In December 2021 alone, we acquired 425k new registrations, primarily off the back of our Refer-A-Friend programme[^mn: This is all publically available information based on [Zilch Press Releases](https://www.zilch.com/news/zilch-continues-unprecedented-fintech-disruption-reaching-2-million-users-in-record-time/)].
+The Google trends chart below shows how fast Zilch grew. When I joined Zilch in summer of 2021, we had less than 1 million registered customers. In September, we hit 1 million registered customers. By March 2022 we had exceeded 2 million registered customers. In December 2021 alone, we acquired 425k new registrations, primarily off the back of our Refer-A-Friend programme[^mn: This is all publically available information based on [Zilch Press Releases](https://www.zilch.com/news/zilch-continues-unprecedented-fintech-disruption-reaching-2-million-users-in-record-time/)].
 
 And yet, we were not doing anything radically new. We were running a playbook analogous to that of PayPal in 1999. PayPal's meteoric rise via the Refer-A-Friend programme is not exactly a secret.[^mn: See Elon Musk [on the topic](https://www.youtube.com/watch?v=vDwzmJpI4io&t=680s
 ) on Youtube] Peter Thiel wrote about it in his bestselling book Zero To One which was published in 2014. This is curious given how much technology has changed since 1999. Nobody serious would run online advertising campaigns like they were run 25 years ago. So in a world with dwindling attention spans and consumers who are saturated by advertising, why are old Refer-A-Friend tactics still successful?
@@ -40,7 +40,7 @@ As always, the devil is in the details. But fundamentally, the human desire to s
 
 ## Understanding Referrals
 
-### Should You Run A Refer A Friend Campaign?
+### Should You Even Run A Refer A Friend Campaign?
 
 <div class="epigraph">
   <blockquote>
@@ -52,11 +52,13 @@ As always, the devil is in the details. But fundamentally, the human desire to s
 
 Mobile gaming companies (think Candy Crush or Monopoly Go) are muscular performance marketing ad spenders. In 2025 they are projected [^sn: [InsightTracker](https://blog.insightrackr.com/en/docs/Global-Mobile-Gaming-UA-Trends-Strategy-Report)] to generate over $100bn in revenue, with about 25% of revenue going towards [^sn:[2024 Bain Mobile Gaming Report](https://s3.amazonaws.com/media.mediapost.com/uploads/BAIN-report_gaming-report-2024.pdf)] advertising. They are clearly experts at digital marketing, otherwise they wouldn't survive. But they don't spend nearly as much on referrals as Fintech companies do. Why?
 
-Not all products are suitable for high volume, paid Refer-A-Friend schemes. Just because PayPal, Revolut and Wise acquired a large fraction of their users through a RAF scheme doesn't mean you will. For example, a company with 0 users, a socially sensitive product (e.g. erectile dysfunction pills or credit cards for people with bad credit) or a niche product such that potential customers are unlikely to know each other (e.g. clients of a funeral home) is unlikely to be successful at a Refer-A-Friend scheme. The following characteristics of your product impact the likelihood of success in running a successful RAF scheme:
+Not all products are suitable for high volume, paid Refer-A-Friend schemes. Just because PayPal, Revolut and Wise acquired a large fraction of their users through a RAF schemes doesn't mean your company will. The following companies are likely to struggle with a Refer-A-Friend scheme: a company with 0 users, a socially sensitive product (e.g. erectile dysfunction pills or credit cards for people with bad credit) or a niche product such that potential customers are unlikely to know each other (e.g. clients of a funeral home) is unlikely to be successful at a Refer-A-Friend scheme. 
+
+The characteristics of your product (or service) impact the likelihood of success in running a successful RAF scheme:
 
 1. **Network Effects**. Revolut, PayPal and Wise grew fast on RAF schemes because their business ("peer to peer payments") is inherently a social product. Most transactions have two parties, the person sending the money and the person receiving it. Users of payments businesses generally have a strong incentive to refer their friends onto the platform, as the platform then becomes more valuable to them the more of their counterparties use them.
 2. **Customer Base Size**. If you are just starting out with user acquisition RAF is unlikely to be helpful. RAF requires a large number of customers to start with, because only a subset of them will go on to refer new users.
-3. **Product & Customer Base Sociality**. Is your product something people would talk about? People are much more likely to share information about good places to eat than they are treatment options for genital warts. Customer demographics matter too, as young people tend to refer more.
+3. **Product & Customer Base Sociality**. Is your product something people would talk about? People are much more likely to share information about good places to eat than they are treatment options for genital warts. Customer demographics matter too. For instance, young people tend to refer more.
 4. **Product Trust Requirements**. Do your customers need to trust your product? People tend to trust things their friends trust, and far more trust is required for a financial app than a video game.
 5. **User Lifetime Values (LTVs)**. Are your customers in the RAF LTV sweet spot? If your business has users who are on average worth very little, you probably have little room to offer financial incentives to refer friends. I'll happily refer a friend to a product if I'll get 100 USD for it, but I'd be insulted if someone offered me 10 cents. Conversely, if your customers are worth a lot, you might want to have professional sales and accounts managers involved in the process, which negates the purpose of a productised RAF experience.
 
@@ -283,33 +285,38 @@ One of the best tactics I have found is to add a bonus incentive for the *first*
 
 
 Examples of qualification criteria:
-- Capital.com 200 USD deposit and 3 trades
+
+- Capital.com: 200 USD deposit and 3 trades
 - Wise: three friends who do X
-- Revolut
+- Public.com: Buy 1000 worth of stocks
 
 The reason why you are setting up **qualification criteria** for a referred user to hit is because you want to make sure you are getting a valuable user for your money. Here too you have to balance on the *quality vs quantity* tradeoff.
 
+If you make it a bit too easy to meet the criteria, you'll end up flooded by users who simply to take your money. If you make it too hard, you'll end up acquiring very few incremental new users. Tightening the quality criteria is often analogous to paying less. You'll acquire fewer users, but of average better quality.[^mn: This is not always true, but most of the time it is.]
+
+
 <p class="sans">A good qualification criteria is generally a heuristic that predicts a high user lifetime value.</p>
 
-If you make it a bit too easy to meet the criteria, you'll end up flooded by users who simply to take your money. If you make it too hard, you'll end up acquiring very few incremental new users. Tightening the quality criteria is often analogous to paying less. You'll acquire fewer users, but of average better quality.[^mn: this is not always true, but most of the time it is].
+My favourite qualification criteria was the one we used at Zilch. We ran a simple regression that showed that adding a card to a mobile wallet was one of the best predictors of higher user LTV. We realised that once a user added a Zilch card to their device wallet, it was very sticky. Very few users would go through the effort of deleting the card, which meant that sooner or later they were likely to use it. 
 
-My favourite qualification criteria was the one we used at Zilch. While I was there we ran a simple regression that showed that adding a card to a mobile wallet was one of the best predictors of higher user LTV. We realised that once their card was on their device wallet, it was sticky. Practically no user would go through the effort of deleting the card, so they were bound to use the product once they were low on cash. We then made referred users add their Zilch card to their mobile wallet in order to spend their rewards through the ApplePay / GooglePay.
+Our qualification criteria then became: "The new user must spend using ApplePay / GooglePay to get your rewards". We even made the referrer rewards only spendable via mobile wallet, ensuring both users were more likely to be retained. 
 
-The qualification criteria should "predict" LTV, not "be" LTV. There is sometimes a temptation to try to keep qualification criteria tight, effectively turning referrals rewards into a fee rebate. For example, a business will calculate that $100 in user spend generates $30 in profit, so they will "give" back the profit (i.e 30 USD) to the user. The argument is sometimes made that this will make abuse and fraud impossible. I generally advise against this, because users can see through the transactional nature of this arrangement. They want a reward in anticipation of their business, not a discount on existing transactions.
+The qualification criteria should "predict" LTV, not "be" LTV. There is sometimes a temptation to try to keep qualification criteria tight, effectively turning referrals rewards into a fee rebate. For example, a business will calculate that $100 in user spend generates $30 in profit, so they will "give" back some of the profit (i.e 30 USD) to the user. The argument is sometimes made that this will make abuse and fraud impossible. I generally advise against this, because most users can see through the transactional nature of this arrangement. They want a reward in anticipation of their business, not a discount on existing transactions.
 
-Make the criteria as simple as possible. Not only do your referrers need to be able to understand it, they also need to be able to explain it to the referees. Do not use internal jargon ("registered customer", "lead", etc) and assume the user will understand. Along these lines, a good qualification criteria needs to **seem** easy to do. It doesn't necessarily have to be easy, but it needs to seem simple enough to the user. A good example of this is Robinhood's 'invite a friend and link a bank account to get a stock'. This seems easy enough to do, but does not say anything about risk checks, KYC verification, eligibility questionnaires and other things which might be necessary to link an account.
+Make the criteria as simple as possible. Not only do your referrers need to be able to understand it, they also need to be able to **explain it** to the referees, who understand your product even less than they do. Do not use internal jargon ("registered customer", "lead", etc) and assume the user will understand. Along these lines, a good qualification criteria needs to **seem** easy to do. It doesn't necessarily have to be easy, but it needs to seem simple enough to the user. A good example of this is Robinhood's 'invite a friend and link a bank account to get a stock'. This seems easy enough to do, but does not say anything about risk checks, KYC verification, eligibility questionnaires and other things which might be necessary to link an account.
 
 ### Qualification: Time Limits and Limited Time Offers
 
 Like in the Revolut example above, often referrals programmes will introduce limited time offers with a higher bonus structure than before. This serves two purposes, first to give people an incentive to refer now as opposed to procrastinating and deferring it to some endless point in the future. Instilling a sense of urgency for action is key.
 
-Second, it can be used to manage flows and campaigns. Because referrrals campaigns can have uncertain payoffs (e.g. due to the introduction of a new qualification criteria or a higher reward) limiting the duration of the campaign can limit the potential negative impact of a campaign. If from outset the campaign is set to expire after a limited amount of time, you can avoid changing terms and conditions on users at the last minute.  If the new offer is for unlimited time, the campaign could easily grow more than expected and would potentially acquire a cohort of low value customers. By limiting the duration of the campaign, it allows for a manageable post-campaign analysis to review the cohort's value.
+Second, it can be used to manage flows and campaigns. Because referrrals campaigns can have uncertain outcomes (e.g. due to the introduction of a new qualification criteria or a higher reward) limiting the duration of the campaign can limit the potential cost of a campaign. If from outset the campaign is set to expire after a limited amount of time, you can avoid changing terms and conditions on users at the last minute.  If the new offer is for unlimited time, the campaign could easily grow more than expected and would potentially acquire a cohort of low value customers. By limiting the duration of the campaign, it allows for a manageable post-campaign analysis to review the cohort's value.
 
 Third, it can help capitalise on certain events or seasonality. A "Christmas campaign" may encourage people to share the product with their families when they are at home.
 
 ### Referrals UI - UX
 
-**comment: draft, bring up to speed with examples from the site where you need to pay**
+**comment: draft, bring up to speed with examples from the site where you need to pay, add ALEX's comments here maybe?**
+A well-designed refer-a-friend scheme has the following elements:
 
 1. Referral hub / entry point
 The main screen where you land. Shows your unique link or code, maybe a headline like "Earn £50 per friend." Often has a prominent share button and a summary of your stats (invited: X, earned: £Y).
@@ -322,64 +329,95 @@ Your payout history and pending amounts. Shows what you've earned, when it was c
 5. Terms / how it works
 Explains qualification criteria. What counts as a "qualifying action"—first transfer, card spend, verification, etc. Usually a separate detail page or expandable section.
 
+Omitting any of these pages is asking for trouble later. If you don't have a "status tracker" for example, your customer support will be inundated with people asking. 
 
 ## Operations
 
 ###  Metrics To Monitor
 
-While running a RAF scheme, one should generally monitor two principal metrics:
+A successful refer-a-friend scheme acquires a large number of high quality users. To do this, you need to monitor the quantity of users acquired, their quality, and the virality of referral scheme. 
 
-- The quality vs. quantity tradeoff of the referral scheme
-- The virality of the referral scheme
+I'd like to emphasise that monitoring the quality of users acquired via RAF is absolutely key, especially if you are giving away cash or cash equivalents. You should monitor their performance daily, particularly if you see a sudden increase in volume of users. It is of great importance you monitor the spread of the channel by geography or nationality. See more on this on the fraud section.
 
-comment: This needs some work to define how the metrics will be computed.
+I have found the following (non-exhaustive) list of metrics useful:
 
-- Number of new customers acquired(both via referrals and via other channels)
-- Referral funnel
-- Referral Rate (w)
-- Referral rate
-- Number of users referred per customer
+- Quantity:
+  - Number of new leads via referrals
+  - Number of new qualified leads via referrals
+  - Number of transacting new customers
+  - % of user acquisition that comes in via referrals
+  
+- Quality: 
+  - The converision funnel steps of referred users (click -> lead -> registered customer -> active customer)
+  - Their LTV curves
 
-Monitoring the quality of users acquired via RAF is absolutely key. You should monitor their performance daily, particularly if you see a sudden increase in volume of users. It is of great importance you monitor the spread of the channel by geography or nationality.  See more on this on the fraud section.
+- Virality: 
+  - Number of clicks on referral links
+  - Number of shares of referral links
+  - Referral rate (w)
+  - Referral rate of new customers
+  - Number of users referred per customer
 
-### Your Allies In Referrals
+### Running A RAF Scheme
 
-To run a referrals campaign you must be able to:
-- Do product stuff: change referral related functions and features
-- Do CRM stuff: communicate with clients
-- Do Customer Support stuff: people will inevitably complain, get in touch with support, etc.
-- Legal / Compliance: Incentives, payouts, terms and conditions need to be drafted etc.
-
-### Changing Your Program
-
-While running a RAF campaign you may want to adjust the reward you pay out to improve on the **quality quantity tradeoff**.
-
-Here there's a few practical considerations you need to keep in mind. First, do not underestimate the complexity of a simple change to the referral programme. You need to change:
+Do not underestimate the complexity of a simple change to the referral programme. Say you want to change the payout amoutn for  You need to change:
 
 - email comms to both referrer and referee
-- UI for both referrer and refereee
+- App and Web UI for both referrer and refereee
 - push comms for both referrer and referee
-- publicly available materials on the website, in FAQs, on support ticket responses etc.
+- publicly available materials on the webpage, in FAQs, on support ticket responses etc.
 
-Perhaps this seems obvious, but it happens surprisingly often that one or more of these are out of whack with each other. This inevitably leads to user complaints and customer support tickets.
+Perhaps this seems obvious, but it happens surprisingly often that one or more of these are out of whack with each other. This inevitably leads to user complaints and customer support tickets. Part of the reason for this is that generally different teams tend to own these functions, and they tend to run with different providers. For this reason, a high quality referral campaigns will require collaboration across various teams in a tech company. You will need to work with: 
+- the product & engineering team (to change referral logic, screens and features)
+- the marketing & CRM team (to notify your customers about the programme and referral campaigns)
+- the legal team (to draft the terms & conditions of the programme)
+- the customer support team (to update FAQs and deal with the inevitable inquiries and complaints around the programme)
+- finance or backoffice support team to deal with payouts
+- the fraud team to deal with potential issues (more on this later)
 
-Due to the potential virality of referral schemes and the amount of users for whom this is the first interaction with your product, it is important to minimise the number of users who are dissapointed by the scheme. Otherwise, you'll be flooded by people complaining in customer support tickets. It is surprising how often people get upset about free money.
+If you are building out a scheme, or even modifying an existing scheme, it is highly recommended you notify all these teams. 
 
-For example, one of the problems we faced at Zilch was that our referral programmes paid out based on when the user created the account. So, if I invite a friend under a $5 regime and they create an account under that programme, they will get paid $5 even if new incoming users would be available under a $10 regime. So if the referring user then gets an email saying referrals now pay $10, and convinces his already referred friend to qualify, they will still only get $5. Generally, we would increase the payout if people complained via customer support but nonetheless its something to be aware of.
+Due to the potential virality of referral schemes and the large amount of users for whom this is the first interaction with your product, it is important to minimise the number of users who are dissapointed by the scheme. Otherwise, you'll be flooded by people complaining in customer support tickets. It is surprising how often people get upset about free money.
 
-From this it follows that its important to keep in mind while building out the referral scheme ensure it is "easy" to change value amounts. This means all of the above can easily changed at the flick of a button. Often this is complicated given that companies tend to use different providers for the website, customer support, app, CRM, etc.  
+From this it follows that its important to keep in mind while building out the referral scheme ensure it is "easy" to change things. Ideally, you want to be in a position where means all of the items above can easily changed at the flick of a button.
+
+#### CASE STUDY: PUBLIC
+It would be unworthy of me to pick on a company with a terrible RAF scheme, so instead I picked a good one that is nonetheless facing some of the most common issues. Public runs a tightly managed refer a friend promotion with simple qualification criteria, and a limited time offer. Nevertheless, I experienced the following isues as a referrer: 
+
+- Email comms goes out
+- App says one thing
+- Link on app says another
+- Landing page has a 404
+-etc
+
+#### CASE STUDY: ZILCH
+
+One of the problems we faced at Zilch was that our referral programmes paid out based on when the user created the account.
+
+Lets say I invite a friend when the referrals campaign pays out $5 per user and they create an account, but do not qualify for the referral bonus. A month later, the referral amount increases to $10 dollars for a limited time, and Zilch emails their customers about it. I call my friend and ask him to finish the process, and he ends up qualifying. But we both get $5 instead of the $10 we were expecting, because he created his account under the previous campaign!
+
+This also lead to financial reporting issues, because inevitably we'd have users being paid a wide range of referral bonuses in a given month as they qualify, but the financial models had stricter assumptoins. 
+
+Generally, we would increase the payout if people complained via customer support but a more long term solution would be to make referral offers time limited. 
 
 ### International Refer-A-Friend Programmes
 
-For international products, there is often a need to adjust the referral scheme based on the country or market. For example, perhaps you wish pay a different reward for referrals in India versus Switzerland. Or perhaps you cannot run monetary rewards in some jurisdictions, but may run them in others.
+Cross-border referrals, i.e. where a customer in one country refers a customer in another country, can get very complicated. 
 
-Moreover, although the user usually sees a single product, the legal entities underlying the product may be different from country to country as they sit under a different regulatory regime. This makes international, cross-border referrals very complicated. For example, if a user in India refers a user in Switzerland, should this user receive the Swiss reward or the Indian reward?
+First, there might be a different payout amount. Digital products tend to cost more in the United States than say in India. For this reason, often RAF schemes have different payouts for referrals in India than in the United States. So then, if a user in India refers a user in the United States, should this user receive the Swiss reward or the American reward?
 
-My advice is generally to try to keep the programme as simple as possible and avoid using "country of residence" distinctions when setting qualification criteria or reward. If it is unavoidable, simplify the situation by allowing customers to
+Second, although the user usually sees a single product, the legal entities underlying the product may be different from country to country as they sit under a different regulatory regime. Incentivised referrals may be legal under one jurisdiction for a financial product, but illegal in another. Perhaps your user referred a customer in a state where he cannot legally be paid for a referral. They'll blame you unless you explain it to them. 
+
+My advice is generally to try to keep the programme as simple as possible and avoid using "country of residence" distinctions when setting qualification criteria or reward. If it is unavoidable, simplify the situation by allowing customers to only refer people in their own countries, as this should cover most cases anyway. 
 
 ### Going Viral
 
-It's just like bacteria in a Petri dish. So what you want to do is try to have one customer generate like two customers. OK? Or something like that. Maybe three customers, ideally. And then you want that to happen really fast. - Elon Musk
+<div class="epigraph">
+  <blockquote>
+    <p>It's just like bacteria in a Petri dish. So what you want to do is try to have one customer generate like two customers. OK? Or something like that. Maybe three customers, ideally. And then you want that to happen really fast.</p>
+    <footer>Elon Musk <cite>SpaceX, Tesla, Paypal</cite> (2014)</footer>
+  </blockquote>
+</div>
 
 Virality coefficient: Number of users referred by the average user * conversion rate.
 $$ N_avg_referrals * P_Referral $$
@@ -398,14 +436,15 @@ Reward Paid Out = P(Meeting Qualification Criteria) * Expected
 
 $$P(Conversion | Qualification Criteria) * E(Value| Conversion) = Reward <= expected LTV $$
 
-The reward of an incentivised RAF scheme can vary across companies and industries. It can be extra product features, a discount or even a cash bonus. Generally, you wish to balance the reward you pay with the value of the users you attract, so that you end up paying less than what the user you are acquiring is worth. Similarly, the qualification criteria can also vary: it can be as little as registering to your product (e.g. signing up to an email list or downloading your app), but it might also be as onerous as making several large transactions. Importantly, the qualification criteria and the reward are two sides of the same coin. The more onerous your qualification criteria is, the more you can afford to pay out as a reward.
 
+probs remove the below 
+The reward of an incentivised RAF scheme can vary across companies and industries. It can be extra product features, a discount or even a cash bonus. Generally, you wish to balance the reward you pay with the value of the users you attract, so that you end up paying less than what the user you are acquiring is worth. Similarly, the qualification criteria can also vary: it can be as little as registering to your product (e.g. signing up to an email list or downloading your app), but it might also be as onerous as making several large transactions. Importantly, the qualification criteria and the reward are two sides of the same coin. The more onerous your qualification criteria is, the more you can afford to pay out as a reward.
 
 ### Fraud & Abuse
 
-Generally, Refer a friend is inevitably going to lead  to a lot of conversations around fraud and abuse within the company.
+Generally, Refer a Friend is inevitably going to lead  to a lot of conversations around fraud and abuse within the company.
 
-Many people have some memory or another about them personally abusing a refer-a-friend scheme and feeling very clever about it. Second, the process around incentivised referrals usually involves teams that are not usually involved in marketing operations, such as finance, customer support or operations teams. It is very difficult for finance team analysts or customer support specialists to spot millions of dollars wasted in ineffective Google Search ad spend, but they will immediately notice that sometimes you pay out 50 USD for a user that ends up not coming back ever again. Somehow, that money feels more real to them and more wasted than that given to big ad platforms.
+Many people have some memory about them personally (or someone they know) abusing a refer-a-friend scheme and feeling very clever about it. Second, the process around incentivised referrals usually involves teams that are not usually involved in marketing operations, such as finance, fraud,  customer support or operations teams. It is very difficult for finance team analysts or customer support specialists to spot millions of dollars wasted in ineffective Google Search ad spend, but they will easily notice that sometimes you pay out 50 USD for a user that ends up not coming back ever again. For many people, that money feels more "wasted" to them.
 
 For this reason, it is important to establish everyone across the business from the outset that [^mn: I have stolen this phrase from an [excellent essay](https://www.bitsaboutmoney.com/archive/optimal-amount-of-fraud/) by Patio11]:
 
@@ -445,11 +484,12 @@ Wise's Refer-A-Friend T&Cs state:
 > 2.5. If Wise elects to move you to our Partner Program, you will be subject to a different set of terms and conditions. If you do not want to join the Partner Program, but continue to refer people for commercial purposes, then Wise can exercise its rights under clause 6 of this Agreement.
 
 
-
 ## When to Reach out (CRM)
 
 - Social proof the largest payouts
--
+- Reach out regularly
+- Reach out early during the funnel, after the first transaction, generally whenever is a good time to ask for a review is a good time to to ask for a referral
+- Keep a refer a friend CTA in the footer of ALL your emails & customer comms to increase surface area. 
 
 ### Should I put Ads Behind My Refer-A-Friend Campaign?
 

@@ -1,0 +1,12 @@
+name: how-to-run-referrals
+static_sites:
+  - name: how-to-run-referrals
+    github:
+      repo: sobradob/how-to-refer-a-friend
+      branch: main
+      deploy_on_push: true
+    build_command: python3 md_to_multipage.py refer_a_friend.md docs/
+    output_dir: docs
+    domains:
+      - domain: howtorunreferrals.com
+        type: PRIMARY

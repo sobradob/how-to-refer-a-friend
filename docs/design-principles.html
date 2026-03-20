@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>Design Principles of Referrals Schemes - How To Refer A Friend</title>
+    <title>Design Principles of Referrals Schemes - How To Run Referrals</title>
     <link rel="stylesheet" href="tufte-css/tufte.css"/>
     <link rel="stylesheet" href="tufte-css/nav.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 <body>
     <nav class="site-nav">
     <div class="nav-container">
-        <a href="index.html" class="site-title">How To Refer A Friend</a>
+        <a href="index.html" class="site-title">How To Run Referrals</a>
         <a href="refer_a_friend.pdf" class="pdf-link">[PDF]</a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"></label>
@@ -33,7 +33,7 @@
 <p>Every referral program faces the same tradeoff: <strong>quality versus quantity</strong>. Each lever you adjust, be it reward amounts, qualification criteria or even onboarding friction, will have an impact on this balance.</p>
 <p>A typical example can be seen below:</p>
 <figure class="fullwidth">
-<img src="img/referral_dynamics_2.png" alt="Quality versus quantity in referrals">
+<img src="/Users/boazsobrado/Desktop/codes/raf/img/referral_dynamics_2.png" alt="Quality versus quantity in referrals">
 <figcaption>
 The dilemma of balancing quantity versus quantity in refer-a-friend programmes
 </figcaption>
@@ -53,7 +53,7 @@ The dilemma of balancing quantity versus quantity in refer-a-friend programmes
 
 <figure style="max-width: 55%;">
 <!-- 50% of 55% -->
-<img src="img/alltrails_referral_tree.png" alt="An example of Robinhood's Variable Reward scheme">
+<img src="/Users/boazsobrado/Desktop/codes/raf/img/alltrails_referral_tree.png" alt="An example of Robinhood's Variable Reward scheme">
 </figure>
 <p>Casual gaming companies like CandyCrush, Monopoly Go or DuoLingo tend to offer non-cash incentives for their referral schemes. If the average LTV of their users is less than $1, then it is impractical to offer cash incentives for referrals. Instead, they tend to offer non-cash incentives like in-game currency, extra lives and premium product features to entice users to refer new customers.</p>
 <p>The advantages of non-cash incentives are that they tend to attract high quality customers, have low marginal costs and have far lower transaction costs than cash incentives. Moreover, in cases when cash incentives are not an option due to low LTVs or regulatory reasons (such as for example cash-incentivised referrals payouts for CFD products, which are banned in the European Union), non-cash incentives allow products to run referrals campaigns.</p>
@@ -89,7 +89,7 @@ The dilemma of balancing quantity versus quantity in refer-a-friend programmes
 <p>An important thing to realise is that the user often has limited control over how many users they refer. They can invite a friend, but whether they sign up and they meet the qualification criteria or not is often beyond their control. Their friend may be too lazy to sign up, or might not understand your app. For this reason, varying the value paid out based on the number of people they refer can be another way in which you can introduce variance into payout amounts.</p>
 <p>For example, Wise’s campaign offers a payout ONLY if the user refers three individual separate new clients. This introduces breakage, which means that a lot of referrals will not get paid out ever. The purpose of this is to save on costs. The image below illustrates just how much:</p>
 <figure>
-<img src="img/wise_breakage_stacked.png" alt="Referrals Per Referrer" /><figcaption aria-hidden="true">Referrals Per Referrer</figcaption>
+<img src="/Users/boazsobrado/Desktop/codes/raf/img/wise_breakage_stacked.png" alt="Referrals Per Referrer" /><figcaption aria-hidden="true">Referrals Per Referrer</figcaption>
 </figure>
 <p>Assuming a distribution of referees per referrer, Wise can cut costs by up to 90% through this payout scheme.</p>
 <p>Another option is to limit the amount of users a single individual can be paid for. This also serves as a cost saving measure, but can help limit fraud and removes incentives for abuse too.</p>
@@ -100,29 +100,35 @@ The dilemma of balancing quantity versus quantity in refer-a-friend programmes
 <h3 id="on-the-qualification-criteria">On The Qualification Criteria</h3>
 
 <p><strong>add images to illustrate</strong></p>
-<p>Examples of qualification criteria: - Capital.com 200 USD deposit and 3 trades - Wise: three friends who do X - Revolut</p>
+<p>Examples of qualification criteria:</p>
+<ul>
+<li>Capital.com: 200 USD deposit and 3 trades</li>
+<li>Wise: three friends who do X</li>
+<li>Public.com: Buy 1000 worth of stocks</li>
+</ul>
 <p>The reason why you are setting up <strong>qualification criteria</strong> for a referred user to hit is because you want to make sure you are getting a valuable user for your money. Here too you have to balance on the <em>quality vs quantity</em> tradeoff.</p>
+<p>If you make it a bit too easy to meet the criteria, you’ll end up flooded by users who simply to take your money. If you make it too hard, you’ll end up acquiring very few incremental new users. Tightening the quality criteria is often analogous to paying less. You’ll acquire fewer users, but of average better quality.<label for="mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="mn-1" class="margin-toggle"/><span class="marginnote">This is not always true, but most of the time it is.</span></p>
 <p class="sans">
 A good qualification criteria is generally a heuristic that predicts a high user lifetime value.
 </p>
-<p>If you make it a bit too easy to meet the criteria, you’ll end up flooded by users who simply to take your money. If you make it too hard, you’ll end up acquiring very few incremental new users. Tightening the quality criteria is often analogous to paying less. You’ll acquire fewer users, but of average better quality.<label for="mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="mn-1" class="margin-toggle"/><span class="marginnote">this is not always true, but most of the time it is</span>.</p>
-<p>My favourite qualification criteria was the one we used at Zilch. While I was there we ran a simple regression that showed that adding a card to a mobile wallet was one of the best predictors of higher user LTV. We realised that once their card was on their device wallet, it was sticky. Practically no user would go through the effort of deleting the card, so they were bound to use the product once they were low on cash. We then made referred users add their Zilch card to their mobile wallet in order to spend their rewards through the ApplePay / GooglePay.</p>
-<p>The qualification criteria should “predict” LTV, not “be” LTV. There is sometimes a temptation to try to keep qualification criteria tight, effectively turning referrals rewards into a fee rebate. For example, a business will calculate that $100 in user spend generates $30 in profit, so they will “give” back the profit (i.e 30 USD) to the user. The argument is sometimes made that this will make abuse and fraud impossible. I generally advise against this, because users can see through the transactional nature of this arrangement. They want a reward in anticipation of their business, not a discount on existing transactions.</p>
-<p>Make the criteria as simple as possible. Not only do your referrers need to be able to understand it, they also need to be able to explain it to the referees. Do not use internal jargon (“registered customer”, “lead”, etc) and assume the user will understand. Along these lines, a good qualification criteria needs to <strong>seem</strong> easy to do. It doesn’t necessarily have to be easy, but it needs to seem simple enough to the user. A good example of this is Robinhood’s ‘invite a friend and link a bank account to get a stock’. This seems easy enough to do, but does not say anything about risk checks, KYC verification, eligibility questionnaires and other things which might be necessary to link an account.</p>
+<p>My favourite qualification criteria was the one we used at Zilch. We ran a simple regression that showed that adding a card to a mobile wallet was one of the best predictors of higher user LTV. We realised that once a user added a Zilch card to their device wallet, it was very sticky. Very few users would go through the effort of deleting the card, which meant that sooner or later they were likely to use it.</p>
+<p>Our qualification criteria then became: “The new user must spend using ApplePay / GooglePay to get your rewards”. We even made the referrer rewards only spendable via mobile wallet, ensuring both users were more likely to be retained.</p>
+<p>The qualification criteria should “predict” LTV, not “be” LTV. There is sometimes a temptation to try to keep qualification criteria tight, effectively turning referrals rewards into a fee rebate. For example, a business will calculate that $100 in user spend generates $30 in profit, so they will “give” back some of the profit (i.e 30 USD) to the user. The argument is sometimes made that this will make abuse and fraud impossible. I generally advise against this, because most users can see through the transactional nature of this arrangement. They want a reward in anticipation of their business, not a discount on existing transactions.</p>
+<p>Make the criteria as simple as possible. Not only do your referrers need to be able to understand it, they also need to be able to <strong>explain it</strong> to the referees, who understand your product even less than they do. Do not use internal jargon (“registered customer”, “lead”, etc) and assume the user will understand. Along these lines, a good qualification criteria needs to <strong>seem</strong> easy to do. It doesn’t necessarily have to be easy, but it needs to seem simple enough to the user. A good example of this is Robinhood’s ‘invite a friend and link a bank account to get a stock’. This seems easy enough to do, but does not say anything about risk checks, KYC verification, eligibility questionnaires and other things which might be necessary to link an account.</p>
 
 </section>
 <section>
 <h3 id="qualification-time-limits-and-limited-time-offers">Qualification: Time Limits and Limited Time Offers</h3>
 
 <p>Like in the Revolut example above, often referrals programmes will introduce limited time offers with a higher bonus structure than before. This serves two purposes, first to give people an incentive to refer now as opposed to procrastinating and deferring it to some endless point in the future. Instilling a sense of urgency for action is key.</p>
-<p>Second, it can be used to manage flows and campaigns. Because referrrals campaigns can have uncertain payoffs (e.g. due to the introduction of a new qualification criteria or a higher reward) limiting the duration of the campaign can limit the potential negative impact of a campaign. If from outset the campaign is set to expire after a limited amount of time, you can avoid changing terms and conditions on users at the last minute. If the new offer is for unlimited time, the campaign could easily grow more than expected and would potentially acquire a cohort of low value customers. By limiting the duration of the campaign, it allows for a manageable post-campaign analysis to review the cohort’s value.</p>
+<p>Second, it can be used to manage flows and campaigns. Because referrrals campaigns can have uncertain outcomes (e.g. due to the introduction of a new qualification criteria or a higher reward) limiting the duration of the campaign can limit the potential cost of a campaign. If from outset the campaign is set to expire after a limited amount of time, you can avoid changing terms and conditions on users at the last minute. If the new offer is for unlimited time, the campaign could easily grow more than expected and would potentially acquire a cohort of low value customers. By limiting the duration of the campaign, it allows for a manageable post-campaign analysis to review the cohort’s value.</p>
 <p>Third, it can help capitalise on certain events or seasonality. A “Christmas campaign” may encourage people to share the product with their families when they are at home.</p>
 
 </section>
 <section>
 <h3 id="referrals-ui---ux">Referrals UI - UX</h3>
 
-<p><strong>comment: draft, bring up to speed with examples from the site where you need to pay</strong></p>
+<p><strong>comment: draft, bring up to speed with examples from the site where you need to pay, add ALEX’s comments here maybe?</strong> A well-designed refer-a-friend scheme has the following elements:</p>
 <ol type="1">
 <li>Referral hub / entry point The main screen where you land. Shows your unique link or code, maybe a headline like “Earn £50 per friend.” Often has a prominent share button and a summary of your stats (invited: X, earned: £Y).</li>
 <li>Share/invite screen Where you actually distribute the link. Usually presents options: copy link, share via WhatsApp, SMS, email, social media. Sometimes includes a QR code. Revolut does this as a modal; Wise keeps it inline.</li>
@@ -130,6 +136,7 @@ A good qualification criteria is generally a heuristic that predicts a high user
 <li>Rewards / earnings screen Your payout history and pending amounts. Shows what you’ve earned, when it was credited, and any rewards still waiting to unlock. PayPal tends to show this as a transaction-style list; Revolut uses a more visual summary.</li>
 <li>Terms / how it works Explains qualification criteria. What counts as a “qualifying action”—first transfer, card spend, verification, etc. Usually a separate detail page or expandable section.</li>
 </ol>
+<p>Omitting any of these pages is asking for trouble later. If you don’t have a “status tracker” for example, your customer support will be inundated with people asking.</p>
 
 </section>
     </article>

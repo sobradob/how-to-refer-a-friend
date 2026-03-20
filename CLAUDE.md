@@ -2,15 +2,15 @@
 
 ## What This Project Does
 
-Converts Markdown documents into a multi-page website using Tufte CSS styling. The main content is a guide on Refer-A-Friend (RAF) programs for fintech/consumer businesses.
+Converts Markdown documents into a multi-page website using Tufte CSS styling. The main content is a guide on referral programs for fintech/consumer businesses.
 
-**Live site:** https://boazsobrado.com/how-to-refer-a-friend/
+**Live site:** https://howtorunreferrals.com/
 **Repository:** https://github.com/sobradob/how-to-refer-a-friend
 
 ## Quick Commands
 
 ```bash
-# Generate multi-page site (outputs to docs/ for GitHub Pages)
+# Generate multi-page site (outputs to docs/)
 python3 md_to_multipage.py refer_a_friend.md docs/
 
 # Generate single-page HTML (legacy)
@@ -27,7 +27,7 @@ raf/
 ├── refer_a_friend.md          # Main content (markdown source)
 ├── md_to_multipage.py         # Multi-page site generator
 ├── md_to_tufte.py             # Single-page converter (legacy)
-├── docs/                      # Generated site (GitHub Pages source)
+├── docs/                      # Generated site (static site output)
 │   ├── index.html             # Introduction + TOC
 │   ├── understanding-referrals.html
 │   ├── design-principles.html
@@ -121,7 +121,9 @@ See `TUFTE_MARKDOWN_SYNTAX.md` for complete reference.
 
 ## Deployment
 
-The site is deployed via GitHub Pages from the `docs/` folder.
+The site is hosted on Digital Ocean App Platform as a static site at https://howtorunreferrals.com/.
+
+The app spec is in `.do/app.yaml`. Pushes to `main` trigger automatic rebuilds.
 
 ```bash
 # After making changes:
@@ -131,8 +133,6 @@ git commit -m "Update content"
 git push
 ```
 
-GitHub Pages will automatically rebuild within a few minutes.
-
 ## HTML Structure
 
 Each page follows this structure:
@@ -141,7 +141,7 @@ Each page follows this structure:
 <body>
   <nav class="site-nav">
     <div class="nav-container">
-      <a href="index.html" class="site-title">How To Refer A Friend</a>
+      <a href="index.html" class="site-title">How To Run Referrals</a>
       <a href="refer_a_friend.pdf" class="pdf-link">[PDF]</a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label"></label>
