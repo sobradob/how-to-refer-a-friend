@@ -296,17 +296,18 @@ def rewrite_internal_links(html_content, anchor_map, current_slug):
 def rewrite_image_paths(html_content, source_dir):
     """
     Rewrite absolute image paths to relative paths.
+    Any absolute path containing /img/ is converted to a relative img/ path,
+    regardless of the specific directory prefix.
     """
-    # Pattern to match src attributes with absolute paths
     def replace_img_src(match):
         src = match.group(1)
-        # If it's an absolute path containing the source directory
-        if source_dir in src:
-            # Extract just the relative path from img/
-            if '/img/' in src:
-                relative = 'img/' + src.split('/img/')[-1]
-                return f'src="{relative}"'
-        # If it's already a URL or relative, leave it alone
+        # Leave URLs alone
+        if src.startswith(('http://', 'https://')):
+            return match.group(0)
+        # Convert any absolute path containing /img/ to relative
+        if '/img/' in src:
+            relative = 'img/' + src.split('/img/')[-1]
+            return f'src="{relative}"'
         return match.group(0)
 
     return re.sub(r'src="([^"]+)"', replace_img_src, html_content)
@@ -328,6 +329,9 @@ def generate_page_html(title, subtitle, nav_html, body_content, chapter_title=No
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <div style="background-color: #ffe033; color: #000; text-align: center; padding: 0.5em 1em; font-size: 0.9em;">
+        This is an unfinished draft, a work in progress. If you'd like to provide feedback please email <a href="mailto:raf@boazsobrado.com" style="color: #000; text-decoration: underline;">raf@boazsobrado.com</a>
+    </div>
     {nav_html}
     <article>
         {body_content}
